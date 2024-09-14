@@ -1,4 +1,5 @@
-let number = 6
+let number = +prompt("Enter your number...")
+
 let remainder = number % 2
 
 console.log(remainder == 0);
